@@ -1,7 +1,9 @@
 쉘스크립트
 ========
+<pre>
 -- utf-8로 변경
  iconv -c -f EUC-KR -t UTF-8 test.csv > text.txt
+</pre>
  
 <pre>
 cat 지번* > buga.txt
