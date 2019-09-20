@@ -3,7 +3,7 @@
 -- utf-8로 변경
  iconv -c -f EUC-KR -t UTF-8 test.csv > text.txt
  
-<code>
+<pre>
 cat 지번* > buga.txt
 echo $?
 if [[ $? -ne 0 ]]; 
@@ -13,4 +13,4 @@ then
 else
     iconv -c -f EUC-KR -t UTF-8 buga.txt > buga-utf8.txt
 fi
-</code>
+</pre>
